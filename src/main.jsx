@@ -6,6 +6,7 @@ import About from "./views/About/About";
 import Contact from "./views/Contact/Contact";
 import Ourservices from "./views/OurServices/OurServices";
 import Notfound from "./views/Notfound/Notfound";
+import Navbar from "./components/Navbar/Navbar";
 
 
 const root = createRoot(document.getElementById('root'))

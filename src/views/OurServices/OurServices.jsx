@@ -1,8 +1,9 @@
 import "./Ourservices.css"
-
+import Navbar from "../../components/Navbar/Navbar";
 function OurServices() {
   return (
-    <div><h1>OurServices</h1></div>
+    <div>
+         <Navbar /><h1>OurServices</h1></div>
   )
 }
 
