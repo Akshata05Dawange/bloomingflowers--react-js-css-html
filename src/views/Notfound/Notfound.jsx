@@ -3,7 +3,8 @@ import "./Notfound.css"
 import Navbar from "../../components/Navbar/Navbar";
 function Notfound() {
   return (
-    <div><h1>Notfound</h1>
+    <div>
+      <h1>Notfound</h1>
      <Navbar />
   
     </div>
@@ -11,4 +12,4 @@ function Notfound() {
    
 }
 
-export default Notfound
+export default Notfound;
