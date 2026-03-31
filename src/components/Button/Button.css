@@ -1,0 +1,41 @@
+.btn {
+  border: none;
+  border-radius: 999px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.12s ease, filter 0.12s ease, background-color 0.15s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #c73b65, #ea7f94);
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #fff;
+  border: 1px solid #c73b65;
+  color: #c73b65;
+}
+
+.btn-tertiary {
+  background: rgba(199, 59, 101, 0.12);
+  color: #5f3245;
+}
+
+.btn:hover:not(.disabled) {
+  transform: translateY(-1px);
+  filter: brightness(1.03);
+}
+
+.btn:active:not(.disabled) {
+  transform: translateY(0);
+}
+
+.btn.disabled,
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  filter: grayscale(0.2);
+}

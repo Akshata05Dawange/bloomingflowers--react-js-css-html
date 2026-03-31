@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import "./Button.css";
 
-function Button() {
+function Button({ children, onClick, variant = "primary", type = "button", disabled = false }) {
   return (
-    <div>Button</div>
-  )
+    <button
+      type={type}
+      className={`btn btn-${variant} ${disabled ? "disabled" : ""}`}
+      onClick={onClick}
+      disabled={disabled}
+    >
+      {children}
+    </button>
+  );
 }
 
-export default Button
+export default Button;

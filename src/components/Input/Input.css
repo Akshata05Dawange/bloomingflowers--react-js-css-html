@@ -1,0 +1,45 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.input-label {
+  color: #6d3f53;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.input-field-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  left: 0.8rem;
+  color: #c73b65;
+  font-size: 1.05rem;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.7rem 0.75rem;
+  border: 1px solid #e2c6d1;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #3a2131;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input-field.with-icon {
+  padding-left: 2.4rem;
+}
+
+.input-field:focus {
+  border-color: #c73b65;
+  box-shadow: 0 0 0 3px rgba(199, 59, 101, 0.14);
+}
